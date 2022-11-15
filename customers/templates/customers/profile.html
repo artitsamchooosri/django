@@ -55,6 +55,14 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <div>
+                                    <label for="first_name">ID Member</label>
+                                    <input name="first_name" class="form-control" id="first_name" type="text"
+                                        value="{{ profile.member_id }}"
+                                           required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div>
                                     <label for="first_name">First Name</label>
                                     <input name="first_name" class="form-control" id="first_name" type="text"
                                            placeholder="Enter your first name" value="{{ profile.user.first_name }}"
